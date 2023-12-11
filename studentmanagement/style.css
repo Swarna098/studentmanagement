@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*****NAVBAR SECTION******/
+.navbar1{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(32, 129, 240);
+    color: white;
+    width: 100%;
+}
+.navbar1 ul li a{
+    font-weight: 600;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.navbar ul li a:hover{
+    background-color: rgb(32, 129, 240);
+    color: white;
+    border-radius: 10px; }
+
+    /******slider******/
+.carousel img{
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    
+    
+  }
+  .slider{
+      padding-top: 60px;
+  }
+  .carousel-item h5{
+      font-weight: 700;
+      color: black; 
+      font-size: 30px;
+      
+  }
+  .carousel-item p{
+      color: black;
+      font-weight: 600;
+    
+  }
+
+  /*******course section********/
+  .course{
+    margin-top: 30px;
+   
+  }
+  .course__img{
+    width: 100%;
+    height: 240px;
+  }
+  .course h3{
+      text-align: center;
+      font-size: 23px;
+      padding-top: 15px;
+      padding-bottom: 30px;
+  }
+
+  /*****8admission form*****/
+  .label__text{
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      padding-right: 10px;
+  }
+  .input__deg{
+      width: 30%;
+      height: 40px;
+      border-radius: 25px;
+      border: 1px solid black;
+  }
+  .adm__int{
+
+     padding-top: 10px;
+  }
+  .input__txt{
+    width: 30%;
+      height: 120px;
+      border-radius: 25px;
+      border: 1px solid black;
+  }
+  #submit{
+      position: relative;
+      width: 15%;
+   margin-right: 30px;
+  }
+     
+/********contact********/
+.fa-facebook{
+    font-size: 22px;
+    color: rgb(28, 28, 209);
+}
+.fa-instagram{
+    font-size: 22px; 
+    color: rgb(161, 21, 241);
+}
+.fa-twitter{
+    font-size: 22px;
+    color: rgb(74, 195, 243);
+}
+.fa-linkedin{
+    font-size: 22px;
+    color: rgb(76, 106, 241);
+}
+/*useful links*/
+.list1 li {
+    list-style-type: none;
+    padding: 8px 0px;
+    
+}
+.list1 li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+   
+}
+.fa-chevron-right{
+    color: skyblue;
+}
+/*footer section*/
+.container5{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.para{
+    margin-left: 280px;
